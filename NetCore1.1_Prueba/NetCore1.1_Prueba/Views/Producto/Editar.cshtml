@@ -1,0 +1,65 @@
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h2>Editar</h2>
+
+@model ProductoEjmplo.Models.ProductoViewModels.Producto
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form method="post" asp-controller="producto" asp-action="editar">
+        <table>       
+            <tr>
+                <td>Nombre</td>
+                <td>
+                    <input type="text" asp-for="Nombre" min="0"  />
+                </td>
+            </tr>
+            <tr>
+                <td>Descripcion</td>
+                <td>
+                    <input type="text" asp-for="Descripcion" min="0" />
+                </td>
+            </tr>
+            <tr>
+                <td>Cantidad</td>
+                <td>
+                    <input type="number" asp-for="Cantidad" min="0"  />
+                </td>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Guardar" />
+                   <input type="hidden" asp-for="ID" min="0"  />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+

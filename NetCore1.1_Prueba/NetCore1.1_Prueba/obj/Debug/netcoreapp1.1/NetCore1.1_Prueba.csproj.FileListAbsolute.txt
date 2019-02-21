@@ -1,0 +1,12 @@
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\bin\Debug\netcoreapp1.1\NetCore1.1_Prueba.deps.json
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\bin\Debug\netcoreapp1.1\NetCore1.1_Prueba.runtimeconfig.json
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\bin\Debug\netcoreapp1.1\NetCore1.1_Prueba.runtimeconfig.dev.json
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\bin\Debug\netcoreapp1.1\NetCore1.1_Prueba.dll
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\bin\Debug\netcoreapp1.1\NetCore1.1_Prueba.pdb
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\obj\Debug\netcoreapp1.1\NetCore1.1_Prueba.csprojAssemblyReference.cache
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\obj\Debug\netcoreapp1.1\NetCore1.1_Prueba.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\obj\Debug\netcoreapp1.1\NetCore1.1_Prueba.AssemblyInfoInputs.cache
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\obj\Debug\netcoreapp1.1\NetCore1.1_Prueba.AssemblyInfo.cs
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\obj\Debug\netcoreapp1.1\NetCore1.1_Prueba.dll
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\obj\Debug\netcoreapp1.1\NetCore1.1_Prueba.pdb
+C:\Users\julio\source\repos\NetCore1.1_Prueba\NetCore1.1_Prueba\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs

@@ -1,0 +1,62 @@
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<h2>Listar</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>HTML Table</h2>
+    <a asp-controller="Producto" asp-action="add">Anadir Producto</a>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Cantidad</th>
+
+        </tr>
+        @foreach (var producto in ViewBag.productos)
+        {
+            <tr>
+                <td>@producto.ID </td>
+                <td>@producto.Nombre</td>
+                <td>@producto.Descripcion</td>
+                <td>@producto.Cantidad</td>
+                <td> <a asp-controller="producto" asp-action="Editar" asp-route-id="@producto.ID">Editar</a> | <a asp-controller="producto" asp-action="Eliminar" asp-route-id="@producto.ID"
+                               onclick="return confirm('Estas seguro?')">Eliminar</a>
+                
+                </td>
+            </tr>
+
+        }
+
+        
+    </table>
+
+</body>
+</html>
+
+
